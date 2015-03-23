@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center_vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:onClick="closeFragment"
+    android:layout_centerHorizontal="true"
+    android:gravity="center_vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:background="#fff"
+        android:minHeight="100dp">
+
+        <TextView
+            android:text="Select State"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:showDividers="middle"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/subject_list"
+            android:divider="?android:dividerHorizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/stateBtn"
+                android:layout_height="0dp"
+                android:onClick="clickHandler"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:onClick="clickHandler"
+                android:layout_height="0dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:onClick="clickHandler"
+                android:layout_height="0dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:onClick="clickHandler"
+                android:layout_height="0dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:onClick="clickHandler"
+                android:layout_height="0dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:onClick="clickHandler"
+                android:layout_height="0dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

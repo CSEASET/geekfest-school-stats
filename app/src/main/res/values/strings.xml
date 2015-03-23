@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">School Stats</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">School Statistics --------- POLL:</string>
+    <string name="action_yes">YES</string>
+    <string name="action_no">NO</string>
+    <string name="title_activity_state_list">School Stats</string>
+    <string name="title_activity_stateview">School Stats</string>
+    <string name="title_activity_facilities">School Stats</string>
+    <string name="title_activity_building">School Stats</string>
+    <string name="title_activity_management">School Stats</string>
+    <string name="title_activity_categoryschool">School Stats</string>
+    <string name="title_activity_enrollment">School Stats</string>
+    <string name="title_activity_habitations">School Stats</string>
+    <string name="title_activity_splash">School Stats</string>
+    <string name="action_poll">POLL RESULT</string>
+    <string name="title_activity_leaderboard">leaderboard</string>
+
+</resources>
